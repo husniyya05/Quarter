@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head1 a {
+  text-decoration: none;
+}
+
+.head2 a {
+  text-decoration: none;
+}
+
+.find {
+  text-decoration: none;
+}
+
+.lead .section form .ahref a {
+  text-decoration: none;
+}
+.lead .margin {
+  text-decoration: none;
+}
+.lead .margin ul {
+  list-style: none;
+}
+.lead .margin .ahref2 a {
+  text-decoration: none;
+}
+.lead .margin .ahref3 a {
+  text-decoration: none;
+}
+
+.day {
+  padding: 80px 0;
+}
+.day .ahref a {
+  text-decoration: none;
+}
+.day .ul3 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.day .imbboxd {
+  margin: 0 80px;
+  width: 540px;
+  height: 573px;
+}
+
+.head1 {
+  font-weight: 500;
+  font-size: 14px;
+  padding-right: 0%;
+  background-color: #0B2C3D;
+}
+.head1 .textbox :hover {
+  color: #FF5A3C;
+}
+.head1 a {
+  color: var(--white);
+}
+.head1 .header1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.head1 .header1 .iconbox {
+  color: #FF5A3C;
+}
+.head1 .header2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 40px;
+}
+.head1 .header2 .iconbox {
+  color: #FF5A3C;
+}
+.head1 .iconbox {
+  color: #fff;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.head1 .textbox_add {
+  background-color: #FF5A3C;
+  padding: 8px;
+  margin: 0 10px;
+}
+.head1 .textbox_add :hover {
+  background-color: #e4482c;
+}
+
+.head2 {
+  padding: 40px 0;
+}
+.head2 .ahref a {
+  color: #525f66;
+  font-size: 18px;
+  padding: 20px 10px;
+  font-weight: 500;
+}
+.head2 .ahref :hover {
+  color: #e4482c;
+}
+.head2 .iconboxb {
+  display: flex;
+  gap: 20px;
+}
+.head2 .iconboxb .iconbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #525f66;
+  height: 50px;
+  width: 50px;
+  box-shadow: 7px 7px 7px 7px #e6ecee;
+}
+
+.find {
+  background-color: #e9eef1;
+  padding: 100px;
+}
+.find .real {
+  display: flex;
+  gap: 5px;
+}
+.find .real .iconbox {
+  color: #FF5A3C;
+}
+.find .real .h6 h6 {
+  font-size: 18px;
+}
+.find h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0 0 20px;
+}
+.find p {
+  font-size: 16px;
+  margin: 0 0 24px;
+  color: #525f66;
+}
+.find .make {
+  display: flex;
+  gap: 20px;
+  padding: 30px 0;
+}
+.find .make .ahref {
+  padding: 15px 40px;
+  background-color: #FF5A3C;
+}
+.find .make .ahref a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.find .make .iconbox {
+  padding: 15px 23px;
+  background-color: #fff;
+  background-color: #fff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.find .make .iconbox i {
+  color: #e4482c;
+  font-size: 18px;
+}
+
+.lead .section {
+  background-color: #fff;
+  position: absolute;
+  top: -30px;
+  box-shadow: 5px 5px 5px 5px rgb(168, 167, 167);
+  padding: 40px 70px;
+}
+.lead .section form {
+  display: flex;
+  gap: 20px;
+}
+.lead .section form select {
+  padding: 13px 50px;
+}
+.lead .section form .ahref {
+  background-color: #e4482c;
+  padding: 10px 30px;
+}
+.lead .section form .ahref a {
+  color: #fff;
+}
+.lead .imgboxb {
+  padding: 200px 0;
+  position: relative;
+}
+.lead .imgboxb .imgbox2 {
+  position: absolute;
+  left: 0px;
+  top: 590px;
+}
+.lead .imgboxb .iconbox {
+  font-size: 25px;
+  position: absolute;
+  left: 130px;
+  top: 680px;
+  background-color: #fff;
+  color: #e4482c;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 25px 35px;
+}
+.lead .margin {
+  padding: 230px 0 0 40px;
+}
+.lead .margin .ahref2 {
+  background-color: #F5DFDC;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  height: auto;
+  width: 120px;
+  text-align: center;
+}
+.lead .margin .ahref2 a {
+  color: #e4482c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.lead .margin .textbox h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.lead .margin .iconbox {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.lead ul .li {
+  padding: 20px 0 0;
+}
+.lead ul .li h6 {
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #525f66;
+}
+.lead ul .li .iconbox {
+  background-color: #F5DFDC;
+  color: #e76048;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 10px 15px;
+}
+.lead ul .li .iconbox i {
+  font-weight: 600;
+}
+.lead .textbox3 {
+  border-left: 4px solid #e76048;
+  background-color: #f7eae8;
+  margin: 40px 20px;
+}
+.lead .textbox3 h4 {
+  color: #525f66;
+  font-size: 15px;
+  padding: 30px 30px;
+  font-weight: 300;
+}
+.lead .ahref3 {
+  background-color: #e4543b;
+  margin: 20px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lead .ahref3 a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.number {
+  background-color: #e9eef1;
+  padding: 100px 0;
+  margin: 0 0 20px;
+}
+.number .iconbox {
+  font-size: 60px;
+  color: #eb5e46;
+  margin: 0 0 30px;
+}
+.number .textbox h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+.number .textbox h3 {
+  font-size: 16px;
+  color: #525f66;
+}
+
+.day .ahref {
+  background-color: #F5DFDC;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  height: auto;
+  width: 120px;
+  text-align: center;
+}
+.day .ahref a {
+  color: #e4482c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.day .textbox h1 {
+  font-size: 44px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.day .textbox p {
+  color: #525f66;
+}
+.day .ul1 ul {
+  color: #525f66;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
+}
+.day .ul2 ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.day .ul2 ul li .li1 {
+  display: flex;
+}
+.day .ul2 ul li .li1 .iconbox {
+  color: #6e7a80;
+}
+.day .ul2 ul li .li1 h6 {
+  font-size: 13px;
+  color: #616e75;
+}
+.day .ul2 ul li h5 {
+  font-size: 13px;
+  color: #6e7a80;
+}
+.day ul .img li {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
