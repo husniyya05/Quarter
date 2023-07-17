@@ -134,6 +134,9 @@
 .find .real .h6 h6 {
   font-size: 18px;
 }
+.find .imgbox img {
+  width: 100%;
+}
 .find h1 {
   font-size: 50px;
   font-weight: 800;
@@ -177,7 +180,7 @@
   background-color: #fff;
   position: absolute;
   top: -30px;
-  box-shadow: 5px 5px 5px 5px rgb(168, 167, 167);
+  box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
   padding: 40px 70px;
 }
 .lead .section form {
@@ -186,6 +189,7 @@
 }
 .lead .section form select {
   padding: 13px 50px;
+  border: 1px solid #ccc;
 }
 .lead .section form .ahref {
   background-color: #e4482c;
@@ -303,6 +307,13 @@
   font-size: 60px;
   color: #eb5e46;
   margin: 0 0 30px;
+  text-align: center;
+}
+.number .textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .number .textbox h2 {
   font-size: 42px;
@@ -352,6 +363,16 @@
           margin-inline-end: 0px;
   -webkit-padding-start: 40px;
           padding-inline-start: 40px;
+  list-style: none;
+}
+.day .ul1 ul li::before {
+  content: "";
+  width: 19px;
+  position: absolute;
+  background: #e4543b;
+  height: 2px;
+  left: 8px;
+  margin-top: 14px;
 }
 .day .ul2 ul {
   list-style: none;
@@ -374,4 +395,28 @@
 }
 .day ul .img li {
   list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .head2-responsive {
+    display: none !important;
+  }
+  .lead .section {
+    padding: 10px !important;
+    right: 0;
+    left: 0;
+  }
+  .lead .section form {
+    flex-direction: column !important;
+  }
+  .lead .imgboxb .imgbox img {
+    width: 100% !important;
+  }
+  .day .imbboxd {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .margin-top-res {
+    margin-top: 80px !important;
+  }
 }/*# sourceMappingURL=main.css.map */

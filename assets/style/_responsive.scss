@@ -1,0 +1,39 @@
+@media screen and (max-width:768px) {
+    .head2-responsive {
+        display: none !important;
+    }
+
+    .lead {
+        .section {
+            padding: 10px !important;
+            right: 0;
+            left: 0;
+
+            form {
+                flex-direction: column !important;
+
+            }
+        }
+
+        .imgboxb {
+            .imgbox {
+                img {
+                    width: 100% !important;
+                }
+            }
+        }
+
+    }
+
+    .day {
+        .imbboxd {
+            margin: 0 !important;
+            width: 100% !important;
+
+        }
+    }
+
+    .margin-top-res {
+        margin-top: 80px !important;
+    }
+}
